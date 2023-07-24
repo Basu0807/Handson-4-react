@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    box-sizing: border-box;
+    height: 150vh;
+  background-image: linear-gradient(#03a9f461, #ff00009e,#d9d9fa61);
+  background-repeat: repeat;
+}   
+.header{
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+.heading{
+    font-size: 40px;
+font-family: 'Italianno', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+.heading:hover{
+    color: pink;
+}
+
+.container{
+    /* background-color: aqua; */
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+
+}
+.tableContainer{
+    /* border: 1px solid black; */
+    width: 90vw;
+    text-align: left;
+    margin: auto;
+    background-color: white;
+    line-height: 45px;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+#StudentDetails{
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+#StudentDetails:hover{
+    background-color: wheat;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+tr{ 
+
+    border-bottom: 1px solid rgb(83, 80, 80);
+    
+}
+
